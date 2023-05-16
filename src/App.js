@@ -7,7 +7,7 @@ function App() {
   const [data,setData]=useState({})
 
   function Countdown(){
-    const endDate= new Date('May 26, 2023 00:00:00').getTime()
+    const endDate= new Date('July 26, 2023 00:00:00').getTime()
     const now = new Date().getTime()
     const difference = endDate- now 
     const seconds = 1000
